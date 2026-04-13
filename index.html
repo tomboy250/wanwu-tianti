@@ -1,8 +1,27 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><title>万物天梯</title></head>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>万物天梯 - 官方榜单</title>
+    <style>
+        :root { --bg: #121212; --card: #1e1e1e; --text: #e0e0e0; --accent: #007bff; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); padding: 15px; margin: 0; }
+        .header { text-align: center; margin: 20px 0; }
+        .item { background: var(--card); padding: 16px; border-radius: 12px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        .rank { font-weight: bold; color: var(--accent); margin-right: 12px; font-size: 1.2em; }
+        .name { font-weight: 500; font-size: 1.1em; }
+        .score { color: #f39c12; font-weight: bold; }
+    </style>
+</head>
 <body>
-<h1>万物天梯已上线！</h1>
-<p>这是您的第一个实时网页。</p>
+    <div class="header"><h1>万物天梯 · 消费电子</h1></div>
+    <div id="list">
+        <div class="item"><span class="rank">#1</span><span class="name">iPhone 16 Pro</span><span class="score">9.8</span></div>
+        <div class="item"><span class="rank">#2</span><span class="name">Sony WH-1000XM5</span><span class="score">9.7</span></div>
+        <div class="item"><span class="rank">#3</span><span class="name">MX Master 3S</span><span class="score">9.6</span></div>
+        <div class="item"><span class="rank">#4</span><span class="name">Keychron Q1</span><span class="score">9.5</span></div>
+        <div class="item"><span class="rank">#5</span><span class="name">Apple Watch Ultra 2</span><span class="score">9.4</span></div>
+    </div>
 </body>
 </html>
